@@ -110,8 +110,6 @@ annotations/
     train.json
     test.json
     placement_radii.json    # 2P augmentation placement metadata
-  motiongv/
-    train.json              # train-only by design
   subsets/
     <subset>/               # original per-subset train/test split files
   humanml3d/                # official HumanML3D split helpers
@@ -130,6 +128,9 @@ The motion files are normalized to the MotionHub SMPL-H convention used in this 
 
 Normalization uses the shared SMPL-H statistics in `statistics/`; per-subset
 statistics are intentionally not part of the release surface.
+
+MotionGV is train-only by design and is included in
+`annotations/text_motion/train.json`; it does not expose a separate task split.
 
 ## Released Subsets
 
