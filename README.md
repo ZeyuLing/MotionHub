@@ -23,19 +23,9 @@ This Hugging Face dataset card is the public entry point for the processed Motio
 
 ## Highlights
 
-| Metric | Value |
-|---|---:|
-| Released subsets | 20 |
-| Clips | 1,105,378 |
-| Motion references | 1,117,169 |
-| Motion frames | 164,981,370 |
-| Motion duration | 1,528 hours |
-| Text-to-motion prompts | 3,307,116 |
-| Motion-to-text references | 3,307,116 |
-| Music-to-dance pairs | 5,602 |
-| Speech/audio-to-gesture pairs | 44,134 |
-| Script-to-gesture scripts | 44,142 |
-| Interaction text-to-motion pairs | 23,582 |
+| Scale | Language Supervision | Audio, Music, and Interaction |
+|---|---|---|
+| **20** released subsets<br>**1.11M** clips<br>**1,528 h** motion<br>**164.98M** frames | **3.31M** text-to-motion prompts<br>**3.31M** motion-to-text references<br>macro / meso / micro caption levels | **5.6K** music-to-dance pairs<br>**44.1K** speech/audio-to-gesture pairs<br>**44.1K** script-to-gesture scripts<br>**23.6K** interaction text-to-motion pairs |
 
 ## Quick Start
 
