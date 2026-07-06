@@ -1,0 +1,72 @@
+{
+  "previews": [
+    {
+      "key": "text_motion",
+      "title": "Text and Motion",
+      "description": "Text descriptions paired with SMPL-H motion",
+      "subset": "HumanML3D_AMASS",
+      "video": "text_motion.mp4",
+      "caption": "A person performs a flying kick with their left leg.",
+      "bodies": [
+        {
+          "label": "Motion",
+          "motion_path": "HumanML3D_AMASS/smplh_52/0000/000000.npz"
+        }
+      ],
+      "bytes": 121169,
+      "sha256": "0093348c44b19475603fdd8439f9d90c8a6c724818361394dd550b58a02159c7"
+    },
+    {
+      "key": "music_dance",
+      "title": "Music and Dance",
+      "description": "Synchronized music and dance motion",
+      "subset": "aist",
+      "video": "music_dance.mp4",
+      "caption": "A person performs a basic breakdance with stepping, arm swings, and dynamic movements.",
+      "bodies": [
+        {
+          "label": "Motion",
+          "motion_path": "aist/smplh_52/gBR_sBM_cAll_d04_mBR0_ch02.npz"
+        }
+      ],
+      "bytes": 275027,
+      "sha256": "fddee68a09ce41dabfb3d954912c6ac869292f9f438a011310ca2c2df4b35c7e"
+    },
+    {
+      "key": "speech_gesture",
+      "title": "Speech and Gesture",
+      "description": "Speech audio or transcript paired with gesture motion",
+      "subset": "beat_v2.0.0",
+      "video": "speech_gesture.mp4",
+      "caption": "Well, emotion is one of the basic things that make us human, and anger is one of them.",
+      "bodies": [
+        {
+          "label": "Motion",
+          "motion_path": "beat_v2.0.0/beat_english_v2.0.0/smplh_52/13/13_lu_0_73_73_1.npz"
+        }
+      ],
+      "bytes": 156512,
+      "sha256": "34c01f414be8a193d702788289650c9a4d093d35509fc5f2581763f0e76dc746"
+    },
+    {
+      "key": "two_person_interaction",
+      "title": "Two-Person Interaction",
+      "description": "Interaction text paired with two-person motion",
+      "subset": "interx",
+      "video": "two_person_interaction.mp4",
+      "caption": "A person approaches another person and whispers in their ear, then receives a light hit or pat from them before they separate.",
+      "bodies": [
+        {
+          "label": "P1",
+          "motion_path": "interx/smplh_52_2p/G019T003A018R019/P1.npz"
+        },
+        {
+          "label": "P2",
+          "motion_path": "interx/smplh_52_2p/G019T003A018R019/P2.npz"
+        }
+      ],
+      "bytes": 179740,
+      "sha256": "6be0d973d38dfe11452348a6470d31fb53a11d1c7c72c2a0ca93e69e1e834f2b"
+    }
+  ]
+}

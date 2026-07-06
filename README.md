@@ -19,7 +19,9 @@ pretty_name: MotionHub
 
 **MotionHub** is a curated multi-domain human-motion dataset collection released for training and evaluating generalist motion models. The released version contains motion, language, music, speech, and two-person interaction supervision in a unified MotionHub annotation format.
 
-This Hugging Face dataset card is the public entry point for the processed MotionHub release used by **VersatileMotion (ECCV 2026)**. Every subset listed below has been visually inspected, converted to the repository SMPL-H convention, re-split where needed, and uploaded after data-quality review.
+This public release is used by **VersatileMotion (ECCV 2026)**. Every subset listed below has been visually inspected, converted to the repository SMPL-H convention, re-split where needed, and uploaded after data-quality review.
+
+**Release links:** [Hugging Face dataset](https://huggingface.co/datasets/ZeyuLing/MotionHub) · [GitHub repository and preview assets](https://github.com/ZeyuLing/MotionHub)
 
 ## Highlights
 
@@ -35,21 +37,21 @@ The previews below are rendered with Three.js from the released SMPL-H motion fi
   <tr>
     <td width="50%">
       <strong>Text and Motion</strong><br>
-      <video src="https://huggingface.co/datasets/ZeyuLing/MotionHub/resolve/main/assets/readme_previews/text_motion.mp4" controls loop playsinline width="100%"></video>
+      <video src="assets/readme_previews/text_motion.mp4" controls loop playsinline width="100%"></video>
     </td>
     <td width="50%">
       <strong>Music and Dance</strong><br>
-      <video src="https://huggingface.co/datasets/ZeyuLing/MotionHub/resolve/main/assets/readme_previews/music_dance.mp4" controls loop playsinline width="100%"></video>
+      <video src="assets/readme_previews/music_dance.mp4" controls loop playsinline width="100%"></video>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <strong>Speech and Gesture</strong><br>
-      <video src="https://huggingface.co/datasets/ZeyuLing/MotionHub/resolve/main/assets/readme_previews/speech_gesture.mp4" controls loop playsinline width="100%"></video>
+      <video src="assets/readme_previews/speech_gesture.mp4" controls loop playsinline width="100%"></video>
     </td>
     <td width="50%">
       <strong>Two-Person Interaction</strong><br>
-      <video src="https://huggingface.co/datasets/ZeyuLing/MotionHub/resolve/main/assets/readme_previews/two_person_interaction.mp4" controls loop playsinline width="100%"></video>
+      <video src="assets/readme_previews/two_person_interaction.mp4" controls loop playsinline width="100%"></video>
     </td>
   </tr>
 </table>
