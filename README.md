@@ -111,6 +111,8 @@ annotations/
     test.json
   motiongv/
     train.json              # train-only by design
+  two_person_interaction/
+    placement_radii.json    # 2P augmentation placement metadata
   subsets/
     <subset>/               # original per-subset train/test split files
   humanml3d/                # official HumanML3D split helpers
@@ -118,7 +120,6 @@ annotations/
 statistics/
   smplh_universal_stats.json
   smplh_universal_stats_aug.json
-  smplh_2p_placement_radii.json   # placement metadata for 2P augmentation
 
 <subset>/
   smplh_52/                  # SMPL-H motion NPZ files
