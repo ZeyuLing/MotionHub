@@ -158,7 +158,7 @@ Please cite MotionHub through the VersatileMotion ECCV 2026 paper and also cite 
 ```bibtex
 @inproceedings{ling2026versatilemotion,
   title={VersatileMotion: A Unified Framework for Motion Synthesis and Comprehension},
-  author={Ling, Zeyu and Han, Bo and Li, Shuyuan and Shen, Han and Cheng, Jun and Zou, Changqing},
+  author={Ling, Zeyu and Han, Bo and Li, Shiyang and Cheng, Jikang and Shen, Hongdeng and Zou, Changqing},
   booktitle={European Conference on Computer Vision (ECCV)},
   year={2026}
 }
