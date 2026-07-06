@@ -89,19 +89,47 @@ root = snapshot_download(
 
 ## Data Format
 
-Each subset follows the same high-level structure:
+The release keeps motion assets, task annotations, and statistics in separate
+top-level locations:
 
 ```text
+annotations/
+  all/
+    train.json
+    test.json
+  text_motion/
+    train.json
+    test.json
+  music_dance/
+    train.json
+    test.json
+  speech_gesture/
+    train.json
+    test.json
+  two_person_interaction/
+    train.json
+    test.json
+  motiongv/
+    train.json              # train-only by design
+  subsets/
+    <subset>/               # original per-subset train/test split files
+  humanml3d/                # official HumanML3D split helpers
+
+statistics/
+  smplh_universal_stats.json
+  smplh_universal_stats_aug.json
+  smplh_2p_placement_radii.json   # placement metadata for 2P augmentation
+
 <subset>/
-  train.json
-  test.json
-  stats.json
   smplh_52/                  # SMPL-H motion NPZ files
   hierarchical_caption/       # macro / meso / micro captions
   ...                         # optional music, audio, speech, or pair metadata
 ```
 
 The motion files are normalized to the MotionHub SMPL-H convention used in this repository. In particular, `trans` / `transl` stores the body-model translation parameter, and the data should not be re-canonicalized in a viewer before quality inspection.
+
+Normalization uses the shared SMPL-H statistics in `statistics/`; per-subset
+statistics are intentionally not part of the release surface.
 
 ## Released Subsets
 
