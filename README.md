@@ -27,6 +27,43 @@ This Hugging Face dataset card is the public entry point for the processed Motio
 |---|---|---|
 | **20** released subsets<br>**1.11M** clips<br>**1,528 h** motion<br>**164.98M** frames | **3.31M** text-to-motion prompts<br>**3.31M** motion-to-text references<br>macro / meso / micro caption levels | **5.6K** music-to-dance pairs<br>**44.1K** speech/audio-to-gesture pairs<br>**44.1K** script-to-gesture scripts<br>**23.6K** interaction text-to-motion pairs |
 
+## Task Previews
+
+The previews below are rendered with Three.js from the released SMPL-H motion files. Music and speech examples include the paired source audio where available.
+
+<table>
+  <tr>
+    <td width="50%">
+      <strong>Text-to-motion</strong><br>
+      <video src="https://huggingface.co/datasets/ZeyuLing/MotionHub/resolve/main/assets/readme_previews/text_to_motion.mp4" controls loop playsinline width="100%"></video>
+    </td>
+    <td width="50%">
+      <strong>Motion-to-text</strong><br>
+      <video src="https://huggingface.co/datasets/ZeyuLing/MotionHub/resolve/main/assets/readme_previews/motion_to_text.mp4" controls loop playsinline width="100%"></video>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <strong>Music-to-dance</strong><br>
+      <video src="https://huggingface.co/datasets/ZeyuLing/MotionHub/resolve/main/assets/readme_previews/music_to_dance.mp4" controls loop playsinline width="100%"></video>
+    </td>
+    <td width="50%">
+      <strong>Speech/audio-to-gesture</strong><br>
+      <video src="https://huggingface.co/datasets/ZeyuLing/MotionHub/resolve/main/assets/readme_previews/speech_audio_to_gesture.mp4" controls loop playsinline width="100%"></video>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <strong>Script-to-gesture</strong><br>
+      <video src="https://huggingface.co/datasets/ZeyuLing/MotionHub/resolve/main/assets/readme_previews/script_to_gesture.mp4" controls loop playsinline width="100%"></video>
+    </td>
+    <td width="50%">
+      <strong>Interaction text-to-motion</strong><br>
+      <video src="https://huggingface.co/datasets/ZeyuLing/MotionHub/resolve/main/assets/readme_previews/interaction_text_to_motion.mp4" controls loop playsinline width="100%"></video>
+    </td>
+  </tr>
+</table>
+
 ## Quick Start
 
 Download the complete release:
