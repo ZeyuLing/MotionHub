@@ -109,10 +109,9 @@ annotations/
   two_person_interaction/
     train.json
     test.json
+    placement_radii.json    # 2P augmentation placement metadata
   motiongv/
     train.json              # train-only by design
-  two_person_interaction/
-    placement_radii.json    # 2P augmentation placement metadata
   subsets/
     <subset>/               # original per-subset train/test split files
   humanml3d/                # official HumanML3D split helpers
