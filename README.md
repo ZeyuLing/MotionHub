@@ -58,8 +58,6 @@ root = snapshot_download(
 )
 ```
 
-The full PerMo package, including editing pairs and Qwen3 embeddings, is also available as a standalone release: [ZeyuLing/PerMo](https://huggingface.co/datasets/ZeyuLing/PerMo).
-
 ## Data Format
 
 Each subset follows the same high-level structure:
